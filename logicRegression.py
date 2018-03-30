@@ -62,8 +62,8 @@ def plot(sampleset,labelset,w,b,flag):
             else:
                 img = cv2.circle(img,(sm[0][0],sm[0][1]), 4, (0,255,0), -1)
     font = cv2.FONT_HERSHEY_SIMPLEX
-    cv2.putText(img,'label is : 0',(10,450), font, 1,(255,255,255),2,cv2.LINE_AA)
-    cv2.putText(img,'label is : 1',(300,30), font, 1,(255,255,255),2,cv2.LINE_AA)
+    cv2.putText(img,'label is : 0',(10,450), font, 1,(255,255,255),1,cv2.LINE_AA)
+    cv2.putText(img,'label is : 1',(300,30), font, 1,(255,255,255),1,cv2.LINE_AA)
     
     cv2.imshow('logicRegression',img)
 
