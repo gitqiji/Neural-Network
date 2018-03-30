@@ -10,7 +10,7 @@ def lossf(y,a):
     if a == 0 or a == 1:
         los = 0
     else:
-        los = -(y*np.log10(a) + (1-y)*np.log10(1-a))
+        los = -(y*np.log(a) + (1-y)*np.log(1-a))
     return los
 def train(x,y,w,b):
     z = inputz(x,w,b)
