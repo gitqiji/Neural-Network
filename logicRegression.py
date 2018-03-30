@@ -32,7 +32,7 @@ def process():
                           [130,100],[20,10],[30,20],[40,10]])
     labelset = np.array([[1],[1],[1],[1],[1],[0],[0],[0],[0]])
     sumdw = 0; sumdb = 0; sumlos = 0;
-    m = sampleset.size
+    m = sampleset.shape[0]
     plot(sampleset,labelset,w,b,0)
 
     for itr in range(20):
