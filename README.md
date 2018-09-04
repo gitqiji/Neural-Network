@@ -1,4 +1,4 @@
-# machine-learing
+# neural network
 Traditional algorithm
 
 logicRegression.py
